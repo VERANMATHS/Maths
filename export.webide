@@ -1,0 +1,73 @@
+{
+  "dataFormatVersion": 2,
+  "type": "exercise",
+  "activity": {
+    "activeFile": "index.html",
+    "activeHtmlFile": "index.html",
+    "openedFiles": [
+      "index.html",
+      "style.css"
+    ],
+    "fileTypesInitialContent": {
+      "text/html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link rel=\"stylesheet\" href=\"style.css\">\n  <title>Titre de la page</title>\n</head>\n<body>\n  \n</body>\n</html>",
+      "text/css": "",
+      "application/javascript": ""
+    },
+    "studentSettings": {
+      "previewIsLive": true,
+      "lineWrap": true,
+      "autoCloseTags": true,
+      "allowedNewTextFileTypes": [
+        "text/html",
+        "text/css",
+        "application/javascript"
+      ],
+      "canUploadTextFiles": true,
+      "canUploadImageFiles": true,
+      "canUploadAudioFiles": true,
+      "canDownloadFiles": true,
+      "canSeeFilesList": true,
+      "canSetVisibilityBounds": true,
+      "canSetFilesPermissions": true,
+      "canSeeOutOfBounds": true,
+      "canOpenAndCloseTabs": true,
+      "canChangePreviewMode": true,
+      "allowedSyntaxCheckers": [
+        "text/html"
+      ],
+      "isCustomSettings": false,
+      "onlySeeBody": false
+    },
+    "filesData": {
+      "style.css": {
+        "contentIndex": 0,
+        "contentType": "text",
+        "studentPermissions": {
+          "firstVisibleLine": 1,
+          "lastVisibleLine": 4,
+          "canEdit": true,
+          "canRename": true,
+          "canDelete": true
+        }
+      },
+      "index.html": {
+        "contentIndex": 1,
+        "contentType": "text",
+        "studentPermissions": {
+          "firstVisibleLine": 1,
+          "lastVisibleLine": 16,
+          "canEdit": true,
+          "canRename": true,
+          "canDelete": true
+        }
+      }
+    }
+  },
+  "content": {
+    "text": [
+      "",
+      "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Exercices de mathématiques</title>\n\n<style>\nbody{\n    font-family: Arial, sans-serif;\n    margin: 40px;\n    background-color: #f4f6f8;\n}\n\n.exercice{\n    background:white;\n    padding:20px;\n    margin-bottom:20px;\n    border-radius:8px;\n    box-shadow:0 2px 5px rgba(0,0,0,0.1);\n}\n\n.correction{\n    display:none;\n    margin-top:15px;\n    padding:15px;\n    background:#e8f5e9;\n    border-left:5px solid #4CAF50;\n}\n\nbutton{\n    margin-top:10px;\n    padding:8px 15px;\n    border:none;\n    background:#1976d2;\n    color:white;\n    border-radius:5px;\n    cursor:pointer;\n}\n\nbutton:hover{\n    background:#125aa0;\n}\n</style>\n\n<script>\nfunction afficherCorrection(id){\n    var correction = document.getElementById(id);\n\n    if(correction.style.display === \"none\"){\n        correction.style.display = \"block\";\n    }else{\n        correction.style.display = \"none\";\n    }\n}\n</script>\n\n</head>\n\n<body>\n\n<h1>Exercices de mathématiques</h1>\n\n<div class=\"exercice\">\n<h3>Exercice 1</h3>\n\n<p>Entrer l'exercice : \n\n</p>\n\n<button onclick=\"afficherCorrection('corr1')\">\nAfficher / masquer la correction\n</button>\n\n<div id=\"corr1\" class=\"correction\">\n<p>\n<br>\nEntrer la correction \n</p>\n</div>\n</div>\n<div class=\"exercice\">\n<h3>Exercice 2</h3>\n\n<p>Entrer l'exercice : \n\n</p>\n\n<button onclick=\"afficherCorrection('corr2')\">\nAfficher / masquer la correction\n</button>\n\n<div id=\"corr2\" class=\"correction\">\n<p>\n<br>\nEntrer la correction \n</p>\n</div>\n\n</div>\n\n</body>\n</html>"
+    ],
+    "base64": []
+  }
+}
